@@ -73,7 +73,6 @@ class CommandInterpreter(val s: Socket): Runnable, ChatObserver {
             }else{
 
                 printer.println("Add user by typing :username 'username' ")
-
             }
 
             println()
